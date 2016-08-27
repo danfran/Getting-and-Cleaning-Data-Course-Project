@@ -58,7 +58,7 @@ Notes:
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-### How to get the Means by Activity Labels and Subjects
+## How to get the Means by Activity Labels and Subjects
 What the script does:
 
 1. Merges the training and the test sets to create one data set.
@@ -67,7 +67,7 @@ What the script does:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## How ```run_analysis.R``` implements the above steps:
+### How ```run_analysis.R``` implements the above steps:
 
 * Install (if necessary) the required libraries (```data.table```, ```reshapre2```).
 * Load the activity labels.
