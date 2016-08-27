@@ -50,4 +50,4 @@ melt_data <- melt(merged_data, id = group_labels, measure.vars = data_labels)
 tidy_data = dcast(melt_data, Activity_Label + Subject ~ variable, mean)
 
 # Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-write.table(tidy_data, file = "./tidy_data.txt")
+write.table(tidy_data, file = "./dataset_means.txt")
