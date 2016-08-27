@@ -7,11 +7,6 @@
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Dataset
-*Human Activity Recognition Using Smartphones Dataset* (ver 1.0).
-
-The link is specified in the course page.
-
 ## Usage
 1. Create a directory (folder) on your local system.
 2. Download the Dataset in this directory.
